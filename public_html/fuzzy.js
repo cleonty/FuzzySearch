@@ -53,12 +53,13 @@
             index2 = {},
             k = 0,
             restOfWord = "",
-            restOfWordLength = 0;
+            restOfWordLength = 0
+            j = 0;
     for (i = 0; i < length; i++) {
       word = items[i];
       wordLength = word.length;
       uniqueLettersInWord = {};
-      for (var j = 0; j < wordLength - 1; j++) {
+      for (j = 0; j < wordLength - 1; j++) {
         letter = word[j];
         if (!uniqueLettersInWord[letter]) {
           uniqueLettersInWord[letter] = true;
