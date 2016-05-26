@@ -1,4 +1,5 @@
 (function (app, console, document, angular) {
+  
   function FuzzySearcher(items) {
     this.items = items;
     this.length = items.length;
