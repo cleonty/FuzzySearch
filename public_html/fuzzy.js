@@ -25,7 +25,7 @@
       word = items[i];
       wordLength = word.length;
       uniqueLettersInWord = {};
-      for (var j = 0; j < wordLength; j++) {
+      for (j = 0; j < wordLength; j++) {
         letter = word[j];
         if (!uniqueLettersInWord[letter]) {
           uniqueLettersInWord[letter] = true;
